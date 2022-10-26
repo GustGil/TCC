@@ -11,11 +11,11 @@
     <div class="main">
         <div class="header">
             <div class="logo">
-                <a href="/pagina_init/index.php"><img src="" alt=""></a>
+                <a href="/TCC/pagina_init/index.php"><img src="" alt=""></a>
             </div>
             <div class="menu">
                 <div>
-                    <a href="">Serviços</a>
+                    <a href="/TCC/tela_servicos/servicos.php">Serviços</a>
                 </div>
                 <div>
                         <a href="">Sobre nós</a>
