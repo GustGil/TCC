@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    display: flex;
+    height: 60px;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: #084d6e;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.botao_login{
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    position: absolute;
+    padding: 120px;
+}
+
+.h1texto, .h4texto{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue ;
+    z-index: 1;
+    margin-top: -10px;
+
+}
+.h1texto{
+    border-left: solid 2px aliceblue;
+}
+.main-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.fale, .sobre, .trabalhos{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+.fale:hover, .sobre:hover, .trabalhos:hover{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    border: solid 1px rgb(53, 53, 53);
+    transform:translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+.titulo-cards{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    border-bottom: #084d6e 2px solid;
+    width: 100px;
+}
+.h1-cards{
+    margin-bottom: 0px;
+    margin-left: 3px;
+}
+
+.img-fundo{
+    position: relative;
+    filter: brightness(80%);
+    width: 100%;
+}

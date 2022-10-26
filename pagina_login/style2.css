@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+input{
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.box-Login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 209);
+    width: 35%;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+}
+.box-Login-interno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    position: relative;
+}
+.box-registro{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 209);
+    height: 100px;
+    width: 35%;
+    height: 450px;
+    justify-content: space;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.risco{
+    border-left: #084d6e 1px solid;
+    width: 1px;
+    height: 500px;
+}
+.img-reg{
+    height: 400px;
+}
+.hl-reg{
+    color: black;
+}
+.box-Login-interno .input-usuario,.input-senha{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid rgb(170,170,170);
+    outline: none;
+    font-size: 1em; 
+}
+.box-Login-interno .input-usuario:focus,.input-senha:focus{
+    border-bottom: #084d6e 2px solid;
+    transition: 0.3s;
+}
+.login-submit input{
+    border: none;
+    background: rgb(180,180,180);
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+}
+.login-submit input:hover{
+    background: rgb(140, 150, 180);
+    transition: 0.2s;
+}
+.menu{
+    display: flex;
+    height: 60px;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: #084d6e;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
