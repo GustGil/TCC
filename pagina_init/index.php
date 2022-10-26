@@ -21,7 +21,7 @@
                         <a href="">Sobre nós</a>
                 </div>
                 <div>
-                        <a href="/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
+                        <a href="/TCC/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                         e dedicados em fazer o sucesso <br>  
                          financeiro da sua empresa acontecer</h4>
                 </div>
-                <img src="/pagina_init/img/superbanner-9.png" class="img-fundo">
+                <img src="/TCC/pagina_init/assets/superbanner-9.png" class="img-fundo">
         </div>
         <div class="titulo-cards">
             <div class="titulo">

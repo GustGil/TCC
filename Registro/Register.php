@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="img">
-                <img src="/Registro/undraw_Business_plan_re_0v81__1_-removebg-preview.png" alt="">
+                <img src="/TCC/Registro/assets/undraw_Business_plan_re_0v81__1_-removebg-preview.png" alt="">
             </div>
         </div>
 

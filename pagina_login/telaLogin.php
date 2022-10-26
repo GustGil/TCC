@@ -43,8 +43,8 @@
             <div class="risco"></div>
             <div class="box-registro">
                 <p>Não possui conta?</p>
-                <a href="/Registro/Register.php" class="hl-reg">Registrar-se agora</a>
-                <img src="/pagina_login/undraw_Searching_re_3ra9-removebg-preview.png" class="img-reg">
+                <a href="/TCC/Registro/Register.php" class="hl-reg">Registrar-se agora</a>
+                <img src="/TCC/pagina_login/assets/undraw_Searching_re_3ra9-removebg-preview.png" class="img-reg">
             </div>
         </div>
     </div>
