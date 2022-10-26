@@ -11,7 +11,7 @@
     <div class="main">
         <div class="header">
             <div class="logo">
-                <a href="/pagina_init/index.html"><img src="" alt=""></a>
+                <a href="/pagina_init/index.php"><img src="" alt=""></a>
             </div>
             <div class="menu">
                 <div>
@@ -21,7 +21,7 @@
                         <a href="">Sobre nós</a>
                 </div>
                 <div>
-                        <a href="/pagina_login/telaLogin.html" class="botao_login" style="text-decoration: none">Entrar</a> 
+                        <a href="/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
                 </div>
             </div>
         </div>
