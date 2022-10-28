@@ -3,11 +3,39 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.cards{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
 
+.cards-int{
+    width: 80%;
+    height: 400px;
 
+    display: flex;
+    justify-content: space-around;
+}
+.IR-card, .FP-card, .EF-card{
+    height: 450px;
+    width: 320px;
+    background-color: rgb(210,210,210);
+    border-radius: 15px;
+}
+.cards img{
+    width: 320px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 
-
-
+}
 
 
 
