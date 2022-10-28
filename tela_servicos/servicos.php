@@ -36,7 +36,13 @@
                         <img src="/TCC/tela_servicos/assets/assessoria-contabil-360x225.png" alt="">
                     </div>
                     <div class="texto">
-                        <h2 class="titulo-card">Imposto de Renda</h2>
+                        <h2 class="titulo-card">Contabilidade</h2>
+                        <div class="p">
+                            <p>Demonstramos com exatidão e transparência as informações que auxiliam em tomadas de decisão, através de consultoria e assessoria.</p>
+                        </div>
+                        <div class="but-saiba">
+                            <a href="">Saiba Mais</a>
+                        </div>
                     </div>
                 </div>
                 <div class="EF-card">
@@ -45,6 +51,12 @@
                     </div>
                     <div class="texto">
                         <h2 class="titulo-card">Escrita Fiscal</h2>
+                        <div class="p">
+                            <p>Realizamos o processamento da escrita fiscal, observando a legislação tributária aplicável em diversos segmentos de atuação.</p>
+                        </div>
+                        <div class="but-saiba">
+                            <a href="">Saiba Mais</a>
+                        </div>
                     </div>
                 </div>
                 <div class="FP-card">
@@ -53,10 +65,16 @@
                     </div>
                     <div class="texto">
                         <h2 class="titulo-card">Folha de Pagamento</h2>
+                        <div class="p">
+                            <p>
+                            Atendemos as necessidades das organizações nas áreas trabalhista e previdenciária, de forma responsável e transparente.
+                            </p>
+                        </div>
+                        <div class="but-saiba">
+                            <a href="">Saiba Mais</a>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
