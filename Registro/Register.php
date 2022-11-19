@@ -7,7 +7,7 @@ if (isset($_POST['register'])) {
 include('C:\xampp\htdocs\truecc\TCC\conexao.php');
 
     
-    //if( isset($_POST['nomeuser']) && isset($_POST['email']) && isset($_POST['nome_emp']) 
+     //if( isset($_POST['nomeuser']) && isset($_POST['email']) && isset($_POST['nome_emp']) 
        //&& isset($_POST['cpf_cnpj']) && isset($_POST['senha'])) {
        $nomeuser = $_POST['nomeuser'];
        $email = $_POST['email'];

@@ -89,9 +89,3 @@ CREATE TABLE funcionario (
     REFERENCES servico (pkserv)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
-
-
-
-    
-    
-
