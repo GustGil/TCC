@@ -1,0 +1,83 @@
+
+/* css do cabeçalho la*/
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(209, 209, 209);
+    height: 500px;
+    width: 80%;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.box-registro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: space-around;
+}
+.box-registro .input-sen, .input-nom, .input-CNP, .input-ema, .input-usu{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid rgb(170,170,170);
+    outline: none;
+    font-size: 1em; 
+}
+
+.box-registro .input-sen:focus, .input-usu:focus, .input-ema:focus, .input-CNP:focus, .input-nom:focus{
+    border-bottom: 2px solid #084d6e;
+    transition: 0.3s;
+}
+.box-registro .submit-input{
+    border: none;
+    background: rgb(180,180,180);
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+}
+.box-registro .submit-input:hover{
+    background: rgb(140, 150, 180);
+    transition: 0.2s;
+}
+.img{
+    margin-right: -100px;
+}
+.menu{
+    display: flex;
+    height: 60px;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: #084d6e;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
