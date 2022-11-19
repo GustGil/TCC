@@ -30,6 +30,7 @@ body{
     height: 400px;
     justify-content: space-around;
 }
+
 .box-registro .input-sen, .input-nom, .input-CNP, .input-ema, .input-usu{
     width: 100%;
     padding: 10px;
