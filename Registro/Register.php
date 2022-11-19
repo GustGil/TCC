@@ -27,6 +27,9 @@ include('C:\xampp\htdocs\truecc\TCC\conexao.php');
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contabilidade Gil</title>
+
     <title>Contabilidade Gil</title>
     <link rel="stylesheet" href="style3.css">
 </head>
@@ -79,12 +82,6 @@ include('C:\xampp\htdocs\truecc\TCC\conexao.php');
                 <img src="/TCC/Registro/assets/undraw_Business_plan_re_0v81__1_-removebg-preview.png" alt="">
             </div>
         </div>
-
-
-
-
-
-
 
 
     </div>
