@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    display: flex;
+    margin-left: 30px;
+    height: 500px;
+    width: 100%;
+
+}
+.texto{
+    margin-left: 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5em;
+}
+.titulo{
+    width: 200px; 
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+    color: antiquewhite;
+    z-index: 1;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 500px;
+}
+
+.img-fundo{
+    z-index: -1;
+    filter: brightness(80%);
+    width: 100%;
+}
+
+.subtitulo{
+    margin-bottom: 50px;
+}
+.lista{
+    line-height: 2em;
+    height: 700px;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    height: 60px;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: #084d6e;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.botao_login{
+    margin-right: 20px;
+    color: aliceblue;
+}
+.box_submit{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #084d6e;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.box_submit:hover{
+    background: #0b6a96;
+    transition: 0.5s;
+}
