@@ -63,26 +63,3 @@ body{
     background-color: #0b6a96;
     transition: 0.3s;
 }
-.menu{
-    display: flex;
-    height: 60px;
-    width: 240px;
-    justify-content: space-around;
-    align-items: center;
-}
-a{
-    color: aliceblue;
-    text-decoration: none;
-}
-.header{
-    background-color: #084d6e;
-    display: flex;
-    height: 60px;
-    width: 100%;
-    justify-content: space-between;
-}
-.logo{
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-}

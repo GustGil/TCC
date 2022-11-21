@@ -1,73 +1,31 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
 }
 .main{
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 100%;
-    align-items: center;
-}
-input{
-    margin-top: 20px;
+    display: flex;
+    height: 700px;
+    justify-content: center;
 }
 .box{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 500px;
-    justify-content: space-around;
-    margin-top: 50px;
 }
 .box-Login{
     display: flex;
     flex-direction: column;
-    background-color: rgb(209, 209, 209);
-    width: 35%;
-    align-items: center;
-    height: 450px;
     justify-content: center;
-    align-content: center;
-    border-radius: 20px;
+    align-items: center;
 }
 .box-Login-interno{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    height: 300px;
-    position: relative;
-}
-.box-registro{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(209, 209, 209);
-    width: 35%;
-    height: 450px;
-    justify-content: space;
-    align-items: center;
-    border-radius: 20px;
-}
-.box-registro-int{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
-}
-.risco{
-    border-left: #084d6e 1px solid;
-    width: 1px;
-    height: 500px;
-}
-.img-reg{
-    height: 400px;
-}
-.hl-reg{
-    color: black;
+    flex-direction: column;
+    gap: 30px;
 }
 .box-Login-interno .input-usuario,.input-senha{
     width: 100%;

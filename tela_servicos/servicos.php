@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include('C:\xampp\htdocs\truecc\TCC\conexao.php');
+include('C:\xampp\htdocs\TCC\conexao.php');
 ?>
 <head>
     <meta charset="UTF-8">
@@ -13,20 +13,7 @@ include('C:\xampp\htdocs\truecc\TCC\conexao.php');
 <body>
     <div class="main">
         <div class="header">
-            <div class="logo">
-                <a href="/TCC/pagina_init/index.php"><img src="" alt=""></a>
-            </div>
-            <div class="menu">
-                <div>
-                    <a href="/TCC/tela_servicos/servicos.php">Serviços</a>
-                </div>
-                <div>
-                        <a href="">Sobre nós</a>
-                </div>
-                <div>
-                        <a href="/TCC/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
-                </div>
-            </div>
+            <?php include('C:\xampp\htdocs\TCC\menu\menu.php') ?>
         </div>
         <div class="titulo">
             <h1> Serviços</h1>

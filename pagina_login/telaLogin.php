@@ -10,41 +10,30 @@
 <body>
     <div class="main"> 
         <div class="header">
-            <div class="logo">
-                <a href="/TCC/pagina_init/index.php"><img src="" alt=""></a>
-            </div>
-            <div class="menu">
-                <div>
-                    <a href="/TCC/tela_servicos/servicos.php">Serviços</a>
-                </div>
-                <div>
-                        <a href="">Sobre nós</a>
-                </div>
-                <div>
-                        <a href="/TCC/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
-                </div>
-            </div>
+            <?php include('C:\xampp\htdocs\TCC\menu\menu.php') ?>
         </div>
         <div class="box"> 
             <div class="box-Login">
-                <h2>Login</h2>
-                <div class="box-Login-interno">
-                    <div class="login-usuario">
-                        <input class="input-usuario" type="text" required="required" placeholder="Usuario">
-                    </div>
-                    <div class="login-senha">
-                        <input class="input-senha" type="password" required="required" placeholder="Senha">
-                    </div>
-                    <div class="login-submit">
-                        <input type="submit" value="Enviar">
-                    </div>
-                </div>
+                <h2>Login</h2> 
+                    <form action="login.php" method="POST"  class="box-Login-interno">
+                        <div class="login-usuario">
+                            <input class="input-usuario" type="text" required="required" placeholder="Email" name="email">
+                        </div>
+                        <div class="login-senha">
+                            <input class="input-senha" type="password" required="required" placeholder="Senha" name="senha">
+                        </div>
+                        <div class="login-submit">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
             </div>
             <div class="risco"></div>
             <div class="box-registro">
-                <p>Não possui conta?</p>
-                <a href="/TCC/Registro/Register.php" class="hl-reg">Registrar-se agora</a>
-                <img src="/TCC/pagina_login/assets/undraw_Searching_re_3ra9-removebg-preview.png" class="img-reg">
+                <div class=box-registro-int>
+                    <img src="/TCC/pagina_login/assets/undraw_Searching_re_3ra9-removebg-preview.png" class="img-reg">
+                    <p>Não possui conta?</p>
+                    <a href="/TCC/Registro/Register.php" class="hl-reg">Registrar-se agora</a>
+                </div>
             </div>
         </div>
     </div>

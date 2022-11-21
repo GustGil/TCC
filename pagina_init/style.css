@@ -2,41 +2,14 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.menu{
-    display: flex;
-    height: 60px;
-    width: 240px;
-    justify-content: space-around;
-    align-items: center;
-}
-a{
-    color: aliceblue;
-    text-decoration: none;
-}
-.header{
-    background-color: #084d6e;
-    display: flex;
-    height: 60px;
-    width: 100%;
-    justify-content: space-between;
-}
-.logo{
-    height: 60px;
-    width: 60px;
-    margin-left: 10px;
-}
 
-.botao_login{
-    margin-right: 20px;
-    color: aliceblue;
-}
 
-.texto{
+.titulo_img{
     display: flex;
     flex-direction: column;
     font-size: x-large;
     position: absolute;
-    padding: 120px;
+    margin-top: 200px;
 }
 
 .h1texto, .h4texto{
@@ -52,26 +25,6 @@ a{
 .h1texto{
     border-left: solid 2px aliceblue;
 }
-.main-cards{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-
-}
-.fale, .sobre, .trabalhos{
-    height: 300px;
-    width: 250px;
-    border-radius: 10px;
-    border: solid 1px gray;
-}
-.fale:hover, .sobre:hover, .trabalhos:hover{
-    height: 300px;
-    width: 250px;
-    border-radius: 10px;
-    border: solid 1px rgb(53, 53, 53);
-    transform:translateY(-10px);
-    transition-duration: 0.5s;
-}
 
 .titulo-cards{
     display: flex;
@@ -81,13 +34,63 @@ a{
     border-bottom: #084d6e 2px solid;
     width: 100px;
 }
-.h1-cards{
-    margin-bottom: 0px;
-    margin-left: 3px;
-}
+
 
 .img-fundo{
     position: relative;
     filter: brightness(80%);
     width: 100%;
+    border-bottom: #084d6e 1px solid;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-int{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.IR-card, .FP-card, .EF-card{
+    height: 470px;
+    width: 320px;
+    background-color: rgb(210,210,210);
+    border-radius: 15px;
+}
+.cards img{
+    width: 320px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+.titulo-card{
+    border-bottom: 1px solid rgb(230,230,230);
+    padding-bottom: 15px;
+}
+.but-saiba{
+    height: 40px;
+    width: 130px;
+    background-color: #084d6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.but-saiba:hover{
+    background-color: #0b6a96;
+    transition: 0.3s;
+}
+.p{
+    margin-left: 20px;
+    line-height: 1.5;
+    height: 130px;
 }

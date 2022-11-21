@@ -1,17 +1,42 @@
-
-
-<?php
-// monta aquele cabeçalho por aqui
-?>
+<?php session_start() ?>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style3.css">    
-<meta charset="UTF-8">
+    <title>Document</title>   
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .menu{
+            display: flex;
+            height: 60px;
+            width: 300px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .header{
+            background-color: #084d6e;
+            display: flex;
+            height: 60px;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .logo{
+            height: 60px;
+            width: 60px;
+            margin-left: 10px;
+        }
+
+    </style>
 </head>
 <body>
 <div class="header">
@@ -25,9 +50,19 @@
                 <div>
                     <a href="">Sobre nós</a>
                 </div>
+                <?php if(isset($_SESSION['Email'])){  ?>
+                <div>
+                    <a href="/TCC/pagina_perfil/tela_perfil.php" class="botao_login" style="text-decoration: none">Meu Perfil</a> 
+                </div>
+                <div>
+                    <a href="/TCC/pagina_login/logout.php" class="botao_login" style="text-decoration: none">Sair</a> 
+                </div>
+                    <?php }else{?>
                 <div>
                     <a href="/TCC/pagina_login/telaLogin.php" class="botao_login" style="text-decoration: none">Entrar</a> 
                 </div>
+                    <?php }?>
             </div>
-        </div>  
+</div>
+
 </body>
