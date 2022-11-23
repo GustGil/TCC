@@ -52,10 +52,10 @@
                     <div class="submit-edit">
                         <a href="../Editar_dados/Edit_user.php?id=<?=$id?>" >Editar Dados</a>
                     </div>
+                    
                 </div>
             </div>
             <div class="documentos">
-
             </div>
         </div>
 

@@ -19,6 +19,7 @@ $result = $conexao->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style10.css" />
+    <script src="https://kit.fontawesome.com/fed07408ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main">
@@ -45,7 +46,7 @@ $result = $conexao->query($sql);
             <li class='nome_emp_topic_tit'>Nome da Empresa</li>
             <li class='email_topic_tit'>Email</li>
             <li class='telefone_topic_tit'>Telefone</li>
-            <li class='cnpj_topic_tit'>CNPJ</li> 
+            <li class='cnpj_topic_tit'>CNPJ</li>
         </ul>
 </tbody>
 
@@ -57,8 +58,14 @@ $result = $conexao->query($sql);
             echo "<li class='nome_topic'>".$user_data['Nome']."</li>";
             echo "<li class='nome_emp_topic'>".$user_data['Nome_Empresa']."</li>";
             echo "<li class='email_topic'>".$user_data['Email']."</li>";
-            echo "<li class='telefone_topic'>".$user_data['Email']."</li>";
+            echo "<li class='telefone_topic'>".$user_data['Telefone']."</li>";
             echo "<li class='cnpj_topic'>".$user_data['CNPJ']."</li>";
+            echo "<div class='divdel'>
+                    <div class='btnback'>
+                        <a class='delbtn' href='delete.php?id=".$user_data['ID']."'> Deletar </a>
+                    </div>
+                <div>";
+           
             echo "</ul>";
         }
                 
