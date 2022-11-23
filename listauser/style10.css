@@ -60,15 +60,15 @@ li{
     font-size: larger;
 }
 .nome_topic_tit{
-    width: 25%;
+    width: 18%;
     font-size: larger;
 }
 .nome_emp_topic_tit{
-    width: 20%;
+    width: 18%;
     font-size: larger;
 }
 .email_topic_tit{
-    width: 25%;
+    width: 20%;
     font-size: larger;
 }    
 .telefone_topic_tit{
@@ -78,23 +78,21 @@ li{
 .cnpj_topic_tit{
     width: 15%;
     font-size: larger;
+    border-right: 1px gray solid;
 }   
-
-
-
 
 
 .ID_topic{
     width: 5%;
 }
 .nome_topic{
-    width: 25%;
+    width: 18%;
 }
 .nome_emp_topic{
-    width: 20%;
+    width: 18%;
 }
 .email_topic{
-    width: 25%;
+    width: 20%;
 }
 
 .telefone_topic{
@@ -104,7 +102,23 @@ li{
     width: 15%;
 }
 
+.delbtn{
+    color: black;
 
+}
+.divdel{
+    display: flex;
+    justify-content: center;
+    width: 100px;
 
+    color: black;
+    border-left: 1px gray solid;
+}
 
+.btnback{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
 
+}
