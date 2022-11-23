@@ -9,9 +9,9 @@ $sql = "select *, count(*) as 'total' from usuario where Email = '$email' and Se
 $result = mysqli_query($conexao,$sql);
 $usuario = mysqli_fetch_assoc($result);
 
-var_dump($usuario,$email,$senha);
 if(intval($usuario['total']) >0 ){
     $_SESSION['Email'] = $email;   
+    $_SESSION['id'] = $usuario['ID'];   
     header('location: ../pagina_init/index.php');   
 }else{
     header('location: telaLogin.php');

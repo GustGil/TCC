@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    justify-content: space-around;
+}
+.main-block{
+    display: flex;
+}
+.img img{
+    height: 250px;
+    width: 250px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 598px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.documentos{
+    width: 65%;
+}
+.edidado{
+    display: flex;
+    align-items: center;
+
+}
+.dado-int{
+    background-color: rgb(209,209,209);
+    width: 70%;
+    height: 598px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+    margin-left: 0;
+    margin-left: -20px;
+    margin-bottom: 15px;
+}
+.titulo-list{
+    gap: 15px;
+}
+.submit-edit{
+    width: 120px;
+    height: 40px;
+    background-color: #084d6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.submit-edit:hover{
+    width: 120px;
+    height: 40px;
+    background-color: #0d6f9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s 0.2s;
+}

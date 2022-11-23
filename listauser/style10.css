@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    display: flex;
+    height: 60px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: #084d6e;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.img-logo{
+    height: 50px;
+}
+.main2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+ul{
+    display: flex;
+    width: 90%;
+    border-bottom: 1px gray solid;
+
+}
+
+li{
+    list-style: none;
+    padding-bottom: 15px;   
+    display: flex;
+    justify-content: center;
+    padding-left: -15px;
+    border-left: 1px gray solid;
+}
+.list-titulo{
+    width: 90%;
+}
+
+
+.ID_topic_tit{
+    width: 5%;
+    font-size: larger;
+}
+.nome_topic_tit{
+    width: 25%;
+    font-size: larger;
+}
+.nome_emp_topic_tit{
+    width: 20%;
+    font-size: larger;
+}
+.email_topic_tit{
+    width: 25%;
+    font-size: larger;
+}    
+.telefone_topic_tit{
+    width: 15%;
+    font-size: larger;
+}
+.cnpj_topic_tit{
+    width: 15%;
+    font-size: larger;
+}   
+
+
+
+
+
+.ID_topic{
+    width: 5%;
+}
+.nome_topic{
+    width: 25%;
+}
+.nome_emp_topic{
+    width: 20%;
+}
+.email_topic{
+    width: 25%;
+}
+
+.telefone_topic{
+    width: 15%;
+}
+.cnpj_topic{
+    width: 15%;
+}
+
+
+
+
+

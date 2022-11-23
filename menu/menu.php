@@ -30,10 +30,8 @@
             width: 100%;
             justify-content: space-between;
         }
-        .logo{
-            height: 60px;
-            width: 60px;
-            margin-left: 10px;
+        .img-logo{
+            height: 50px;
         }
 
     </style>
@@ -41,7 +39,7 @@
 <body>
 <div class="header">
             <div class="logo">
-                <a href="/TCC/pagina_init/index.php"><img src="" alt=""></a>
+                <a href="/TCC/pagina_init/index.php"><img class='img-logo' src="/TCC/menu/imagem_2022-11-22_085550699-removebg-preview.png" alt=""></a>
             </div>
             <div class="menu">
                 <div>
@@ -50,7 +48,8 @@
                 <div>
                     <a href="">Sobre nós</a>
                 </div>
-                <?php if(isset($_SESSION['Email'])){  ?>
+                <?php if(isset($_SESSION['Email'])){?>
+                    
                 <div>
                     <a href="/TCC/pagina_perfil/tela_perfil.php" class="botao_login" style="text-decoration: none">Meu Perfil</a> 
                 </div>
